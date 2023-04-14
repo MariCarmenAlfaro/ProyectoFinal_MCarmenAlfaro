@@ -1,0 +1,16 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+#carouselExampleInterval {
+    width: 60%;
+    margin: auto;
+    
+}
+.card{
+    display: inline;
+    float: left;
+    margin: 2%;
+
+}

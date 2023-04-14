@@ -1,0 +1,19 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+.contacto {
+    margin: auto;
+     width: 80%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.btnEnviar {
+    background-color:rgba(255, 255, 255, 0.554) ;
+   
+}
+.btnEnviar:active, .btnEnviar:hover{
+    background-color:rgba(255, 255, 255, 0.808) ;
+}
