@@ -30,6 +30,7 @@
       ?>
       <!--Cuerpo con informacion importante-->
       <div class="centro">
+
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -68,6 +69,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
+
         </div>
       </div>
 

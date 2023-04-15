@@ -4,16 +4,28 @@
     font-family: 'Playfair Display', serif;
 }
 .contacto {
-    margin: auto;
+    
      width: 80%;
-    margin: auto;
-    margin-top: 2%;
+   margin: auto;
+    padding:2% ;
 }
 
 .btnEnviar {
-    background-color:rgba(255, 255, 255, 0.554) ;
+    background-color:rgba(0, 0, 0, 0.554) ;
+    color: white;
+    padding: 1%;
+    border-radius: 30%;
    
 }
 .btnEnviar:active, .btnEnviar:hover{
-    background-color:rgba(255, 255, 255, 0.808) ;
+    background-color:rgba(0, 0, 0, 0.793) ;
+}
+.form-control{
+    width: 50%;
+}
+.rrss{
+    color: black;
+}
+.rrss:hover{
+   color:  rgb(255, 213, 240)
 }

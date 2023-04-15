@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quienes somos</title>
+  <title>Perfil</title>
   <link rel="stylesheet" href="estilos/estiloContact.css">
   <link rel="stylesheet" href="../estructura/estilosEstructura.css">
   <script src="../Vistas/test.js"></script>
@@ -31,32 +31,14 @@
       <!--Cuerpo con informacion importante-->
       <div class="centro">
         <div class="contacto">
-          <h2>¡Como localizarnos!</h2>
-          <h3>Contacto</h3>
-          <p><i class="bi bi-telephone"></i> Telefono: <strong>693582471</strong>
-            </p>
-             <p><i class="bi bi-envelope-paper-heart"></i> Correo electronico: 
-          <a class="rrss" href="https://mail.google.com/mail/?view=cm&source=mailto&cc=[hipicaalfaro@gmail.com]" target="_blank">hipicaalfaro@gmail.com</a></p>
-       
-          <p><i class="bi bi-instagram"></i> Intagram: <a class="rrss" href="https://www.instagram.com/hipicaalfaro/" target="_blank"> @hipicaalfaro</a>
-          </p>
-          <h3>Ubicación</h3>
-          <p> <i class="bi bi-geo-alt"></i><a href="https://goo.gl/maps/eyezBzkXnHMDUqRe8" class="rrss" target="_blank"> Calle de la diversión, Nº1, CP, 07184, Calviá, Illes Balears</a>
-            </p>
-          <h3>HORARIO</h3>
-
-          <h4>Para informacion más concreta ¡no dudes en enviarnos tus dudas!</h4>
-          <form action="/action_page.php">
-            <div class="mb-3 mt-3">
-              <label for="">&nbsp Nombre (obligatorio)</label> <br>
-              <input type="text" name=""  placeholder="Hípica Alfaro"><br>
-              <label for=""> &nbspEmail (obligatorio)</label> <br>
-              <input type="email" name=""  placeholder="hipicaalfaro@gmail.com"><br>
-              <label for=""> &nbspComentario: </label>
-              <textarea class="form-control areaComent" rows="5" id="comment" name="text" placeholder="Hola! Soy Mari y mi consulta es..."></textarea>
-            </div>
-            <button type="submit" class="btnEnviar">Enviar</button>
-          </form>
+          <h2>Datos de tu perfil </h2>
+        <h3>SOLO PODRAN ACCEDER LOGEADOS</h3>
+    <h4>Dependiendo de que usuario se loguee podrá ver una cosa u otra</h4>
+    <p>Basic: sus datos como alumnos(horarios clase etc)</p>
+    <p>Dueño: Datos sobre su caballo, cuadra, etc</p>
+    <p>Admin: Perfil del propio </p>
+     
+     
         </div>
       </div>
 

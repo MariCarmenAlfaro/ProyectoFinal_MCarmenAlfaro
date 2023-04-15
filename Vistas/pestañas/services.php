@@ -30,92 +30,153 @@
       <div class="centro">
         <div class="servicios">
           <h2>¡Cosas que hacer con nosotros!</h2>
+          <p>Aquí podrás encontrar todos los servios que podemos ofrecer!</p>
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Clases de equitación
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <h3>Clases de equitación</h3>
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <span>HORARIOSThis is the first item's accordion body.</span> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <div class="foto">
+                    <img src="../imgs/clases.jpg" class="card-img-top" alt="...">
+
+                  </div>
+                  <span>HORARIOS de clase</span>
+
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Excursiones
+                  <h3>Excursiones</h3>
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <div class="foto">
-                    <img src="../imgs/A 1916.jpg" class="card-img-top" alt="...">
-                    <img src="../imgs/A 1916.jpg" class="card-img-top" alt="...">
+                    <img src="../imgs/excMontaña.jpg" class="card-img-top" alt="...">
+                    <img src="../imgs/excPlaya.jpg" class="card-img-top" alt="...">
                   </div>
-                  <span>This is the second item's accordion body.</span> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <h4>Excursion Playa</h4>
+                  <p>Información</p>
+                  <h4> Excursion montaña</h4>
+                  <p>Información</p>
+                  <!--Formulario para poder reservar-->
+                  <h4>¡Haz tu petición de reserva desde aquí!</h4>
+                  <p>Puedes reservar una excursión con nosotros rellenando éste formulario. Recibirá de vuelta un correo de confirmación si todo es correcto.</p>
+                  <button class="btn btn-primary btnReservar" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    ¡Pulsa para reservar!
+                  </button>
+                  <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                      <form class="row g-3 fromReserva">
+                        <div class="col-md-6">
+                          <label for="inputName4" class="form-label">Nombre (Requerido)*</label>
+                          <input type="password" class="form-control" id="inputPassword4" required>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label">Email (Requerido)*</label>
+                          <input type="email" class="form-control" id="inputEmail4" required>
+                        </div>
+
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label">Número de personas</label>
+                          <select class="form-select" aria-label="Default select example" required>
+                            <option selected>Seleccione uno</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="3">4</option>
+                            <option value="3">5</option>
+                          </select>
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress2" class="form-label">Fecha de la excursión</label>
+                          <input type="date" class="form-control" id="inputDate2">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputCity" class="form-label">Tipo </label>
+                          <select class="form-select" aria-label="Default select example" required>
+                            <option selected>Seleccione uno...</option>
+                            <option value="1">Excursión por la playa</option>
+                            <option value="2">Excursión por la montaña</option>
+
+                          </select>
+                        </div>
+
+                        <div class="col-12 botonReserva">
+                          <button type="submit" class="btn btn-primary btnReservar" >Reservar</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+
+
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Pupilaje de cuadras
+                  <h3>Pupilaje de cuadras</h3>
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <span>This is the third item's accordion body.</span> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <div class="foto">
+                    <img src="../imgs/cuadras.png" class="card-img-top" alt="...">
+
+                  </div>
+                  <p>Informacion de tipos cuadras</p>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Celebración cumpleaños
+                  <h3>Celebración cumpleaños</h3>
                 </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <span>This is the third item's accordion body.</span> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <div class="foto">
+                    <img src="../imgs/niños.jpg" class="card-img-top" alt="...">
+                    <img src="../imgs/muffinsCumple.jpg" class="card-img-top" alt="">
+                  </div>
+                  Informacion como celebrar el cumpleaños.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingFive">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  Fiestas temáticas
+                  <h3>Fiestas temáticas</h3>
                 </button>
               </h2>
               <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <span>This is the third item's accordion body.</span> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <div class="foto">
+                    <img src="../imgs/navidad.jpg" class="card-img-top" alt="...">
+
+                  </div>
+                  Informacion de nuestras celebraciones
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingSix">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  ????
-                </button>
-              </h2>
-              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong></strong>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
-      
+
       <?php
       include("../estructura/columnDere.html");
       ?>
-      
-      
+
+
     </div>
     <?php
     include("../estructura/piePagina.html");
