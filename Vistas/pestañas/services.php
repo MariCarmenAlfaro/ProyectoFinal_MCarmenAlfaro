@@ -109,7 +109,7 @@
                         </div>
 
                         <div class="col-12 botonReserva">
-                          <button type="submit" class="btn btn-primary btnReservar" >Reservar</button>
+                          <button type="submit" class="btn btn-primary btnReservar">Reservar</button>
                         </div>
                       </form>
                     </div>
@@ -169,6 +169,21 @@
             </div>
 
           </div>
+          <?php
+          require('../../Negocio/pricesBussness.php');
+          $prices = new PricesBussines();
+          $dataPrices = $prices->obtainPrices();
+          echo "*TABLA PROVISIONAL Y SIN CSS*<br>";
+          echo "PRECIOS <br>";
+          echo "Servicios que ofrecemos --- Precio<br>";
+         
+          foreach ($dataPrices as $price) {
+
+            echo $price->getTypeService(). " ";
+
+            echo $price->getPrices() . "€ <br>";
+          }
+          ?>
         </div>
       </div>
 
