@@ -21,8 +21,7 @@
   <div class="contenedor">
 
     <?php
-    include("../estructura/navBar.html");
-
+    include("../estructura/navBar.php");
     ?>
     <div class="cuerpo">
       <?php

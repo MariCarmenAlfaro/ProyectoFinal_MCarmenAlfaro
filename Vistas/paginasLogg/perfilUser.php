@@ -21,7 +21,7 @@
   <div class="contenedor">
 
     <?php
-    include("../estructura/navBar.html");
+    include("../estructura/navBar.php");
 
     ?>
     <div class="cuerpo">
@@ -32,13 +32,11 @@
       <div class="centro">
         <div class="contacto">
           <h2>Datos de tu perfil </h2>
-        <h3>SOLO PODRAN ACCEDER LOGEADOS</h3>
-    <h4>Dependiendo de que usuario se loguee podrá ver una cosa u otra</h4>
-    <p>Basic: sus datos como alumnos(horarios clase etc)</p>
-    <p>Dueño: Datos sobre su caballo, cuadra, etc</p>
-    <p>Admin: Perfil del propio </p>
-     
-     
+          <h3>SOLO PODRAN ACCEDER LOGEADOS</h3>
+          <h4>Dependiendo de que usuario se loguee podrá ver una cosa u otra</h4>
+          <p>Basic: sus datos como alumnos(horarios clase etc)</p>
+          <p>Dueño: Datos sobre su caballo, cuadra, etc</p>
+          <p>Admin: Perfil del propio </p>
         </div>
       </div>
 

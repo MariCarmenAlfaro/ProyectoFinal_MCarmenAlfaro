@@ -21,7 +21,7 @@
   <div class="contenedor">
 
     <?php
-    include("../estructura/navBar.html");
+    include("../estructura/navBar.php");
 
     ?>
     <div class="cuerpo">
@@ -33,10 +33,10 @@
         <div class="contacto">
           <h2>Zona de vigilancia </h2>
           <h3>SOLO PODRAN ACCEDER DUEÑOS Y ADMINISTRADORES</h3>
-        
-<h4>Videos de videovigilancia</h4>
-     
-     
+
+          <h4>Videos de videovigilancia</h4>
+
+
         </div>
       </div>
 

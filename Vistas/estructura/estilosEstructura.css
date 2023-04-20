@@ -34,7 +34,7 @@
     background-color: white;
 }
 .contenedor{
-    background-color: black;
+    background-color: rgb(124, 124, 124);
     min-height: 100vh;
    
 }
@@ -75,6 +75,9 @@ a.nav-link,.navbar-brand{
 }
 .personal{
     display: flex;
-   margin-left: 0;
+   margin-right: 0;
 
+}
+.enmedio{
+    
 }
